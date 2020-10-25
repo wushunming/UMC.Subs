@@ -1,5 +1,5 @@
 ﻿UMC.UI.Config({ 'posurl': '/UMC/' + (UMC.cookie('device') || UMC.cookie('device', UMC.uuid())) });
-UMC.Src = '//oss.365lu.cn/v0.1/';
+UMC.Src = '//www.365lu.cn/v0.1/';
 UMC.SPA = '/';
 
 UMC(function ($) {
@@ -8,7 +8,8 @@ UMC(function ($) {
     html.push('<li><a ui-spa href="/dashboard">工作台</a></li>',
         '<li><a ui-spa href="/explore">发现</a></li>',
         '<li><a ui-spa href="/365lu/help">功能说明</a></li>',
-        '<li><a class="AppDown" ui-spa href="/download">App下载</a></li>');
+        '<li><a class="AppDown" ui-spa href="/download">App下载</a></li>',
+        '<li><a ui-spa href="/365lu/open">开放开源</a></li>');
 
     var site = $('.header-sub-nav .menu-site').html(html.join(''));
     requestAnimationFrame(() => {

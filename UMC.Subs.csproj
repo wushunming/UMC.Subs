@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Subject\StoreBannerActivity.cs" />
+    <Compile Remove="Subject\SubjectApplyActivity.cs" />
+    <Compile Remove="Subject\SubjectCategoryActivity.cs" />
+    <Compile Remove="Subject\SubjectCognateActivity.cs" />
+    <Compile Remove="Subject\SubjectCognateUIActivity.cs" />
+    <Compile Remove="Subject\SubjectCopyActivity.cs" />
+    <Compile Remove="Subject\SubjectGridDialog.cs" />
+    <Compile Remove="Subject\SubjectMeActivity.cs" />
+    <Compile Remove="Subject\SubjectNavUIActivity.cs" />
+    <Compile Remove="Subject\SubjectProfileUIActivity.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\sub.html" />
+    <None Remove="Resources\sub.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\sub.js" />
+    <EmbeddedResource Include="Resources\sub.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebADNuke.Data\UMC.Data.csproj" />
+  </ItemGroup>
+
+</Project>

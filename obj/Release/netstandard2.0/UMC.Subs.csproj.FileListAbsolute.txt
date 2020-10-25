@@ -1,0 +1,11 @@
+C:\DOC\Static\UMC.Subject\bin\Release\netstandard2.0\UMC.Subs.deps.json
+C:\DOC\Static\UMC.Subject\bin\Release\netstandard2.0\UMC.Subs.dll
+C:\DOC\Static\UMC.Subject\bin\Release\netstandard2.0\UMC.Subs.pdb
+C:\DOC\Static\UMC.Subject\bin\Release\netstandard2.0\UMC.Data.dll
+C:\DOC\Static\UMC.Subject\bin\Release\netstandard2.0\UMC.Data.pdb
+C:\DOC\Static\UMC.Subject\obj\Release\netstandard2.0\UMC.Subs.csprojResolveAssemblyReference.cache
+C:\DOC\Static\UMC.Subject\obj\Release\netstandard2.0\UMC.Subs.csproj.CoreCompileInputs.cache
+C:\DOC\Static\UMC.Subject\obj\Release\netstandard2.0\UMC.Subs.AssemblyInfoInputs.cache
+C:\DOC\Static\UMC.Subject\obj\Release\netstandard2.0\UMC.Subs.AssemblyInfo.cs
+C:\DOC\Static\UMC.Subject\obj\Release\netstandard2.0\UMC.Subs.dll
+C:\DOC\Static\UMC.Subject\obj\Release\netstandard2.0\UMC.Subs.pdb
